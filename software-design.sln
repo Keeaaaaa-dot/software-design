@@ -39,11 +39,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab8", "lab8\lab8.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab9", "lab9\lab9.csproj", "{13A24C84-D906-44B6-92CD-4D88BF2B8F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Task4\Task4.csproj", "{CA3CA49B-135D-46EA-A21E-9F36292CEB1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task4", "Task4\Task4.csproj", "{CA3CA49B-135D-46EA-A21E-9F36292CEB1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5BubbleSort", "Task5BubbleSort\Task5BubbleSort.csproj", "{96CBE618-BC30-43BF-8005-B2597E231500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5BubbleSort", "Task5BubbleSort\Task5BubbleSort.csproj", "{96CBE618-BC30-43BF-8005-B2597E231500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5GitFlowIntegration", "Task5GitFlowIntegration\Task5GitFlowIntegration.csproj", "{257366C0-BCFD-4419-8DA1-82C7F7A1547D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5GitFlowIntegration", "Task5GitFlowIntegration\Task5GitFlowIntegration.csproj", "{257366C0-BCFD-4419-8DA1-82C7F7A1547D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3RecursiveFibonacciSequence", "Task3RecursiveFibonacciSequence\Task3RecursiveFibonacciSequence.csproj", "{890F77A5-52F2-486C-9A62-67AFC7725919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3RecursivePowerCalculation", "Task3RecursivePowerCalculation\Task3RecursivePowerCalculation.csproj", "{DE25BC3A-44B9-4A15-AF16-6FDF8556A210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{257366C0-BCFD-4419-8DA1-82C7F7A1547D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257366C0-BCFD-4419-8DA1-82C7F7A1547D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257366C0-BCFD-4419-8DA1-82C7F7A1547D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890F77A5-52F2-486C-9A62-67AFC7725919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890F77A5-52F2-486C-9A62-67AFC7725919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890F77A5-52F2-486C-9A62-67AFC7725919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890F77A5-52F2-486C-9A62-67AFC7725919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE25BC3A-44B9-4A15-AF16-6FDF8556A210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE25BC3A-44B9-4A15-AF16-6FDF8556A210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE25BC3A-44B9-4A15-AF16-6FDF8556A210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE25BC3A-44B9-4A15-AF16-6FDF8556A210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +128,8 @@ Global
 		{CA3CA49B-135D-46EA-A21E-9F36292CEB1F} = {A6555F1A-B1AA-4432-BEFA-4312196DC09E}
 		{96CBE618-BC30-43BF-8005-B2597E231500} = {A6555F1A-B1AA-4432-BEFA-4312196DC09E}
 		{257366C0-BCFD-4419-8DA1-82C7F7A1547D} = {A6555F1A-B1AA-4432-BEFA-4312196DC09E}
+		{890F77A5-52F2-486C-9A62-67AFC7725919} = {EE8739D9-DF08-4912-B8A2-6C11174F84E9}
+		{DE25BC3A-44B9-4A15-AF16-6FDF8556A210} = {EE8739D9-DF08-4912-B8A2-6C11174F84E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CACC9D6-DA0E-4BAF-B290-8F083C750B50}
