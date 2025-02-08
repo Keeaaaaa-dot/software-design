@@ -25,7 +25,7 @@ namespace Task3RecursivePowerCalculation
                
                 MessageBox.Show($"{baseNumber}^{exponent} = {result}", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Invalid input.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
