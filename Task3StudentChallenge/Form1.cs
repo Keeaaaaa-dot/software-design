@@ -1,4 +1,6 @@
 
+using Task3StudentChallenge.Class;
+
 namespace Task3StudentChallenge
 {
     public partial class Form1 : Form
@@ -48,75 +50,7 @@ namespace Task3StudentChallenge
                 }
             }
         }
-
-        public class Book
-        {
-            public string Title { get; set; }
-            public string Author { get; set; }
-
-            public virtual string GetInfo()
-            {
-                return $"{Title} by {Author}";
-            }
-        }
-
-
-        public class Magazine : Book
-        {
-            public int IssueNumber { get; set; }
-
-            public override string GetInfo()
-            {
-                return $"{Title} - Issue {IssueNumber} - by: ({Author}) ";
-            }
-        }
-
-
-
-        public class Ebook : Book
-        {
-            public string FormatType { get; set; }
-
-
-            public override string GetInfo()
-            {
-                return $"{Title} ({FormatType}) by: ({Author})";
-            }
-        }
-
-        public class Textbook : Book // Inherit from 'Book'
-        {
-            public string Subject { get; set; } // Add 'Subject' property
-
-            public override string GetInfo()
-            {
-                return $"{base.GetInfo()} on subject '{Subject}'";
-            }
-
-
-        public partial class AudioBook : Book
-            {
-
-                private int duration;
-                private String narrator;
-
-                public int Duration
-                {
-
-                    get { return duration; }
-                    set { duration = value; }
-
-                }
-
-                public String Narrator
-                {
-
-                    get { return narrator; }
-                    set { narrator = value; }
-
-                }
-            }
-
-        }
+       
+      
     }
 

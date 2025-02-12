@@ -23,6 +23,8 @@ namespace Task2PolymorphicBehaviorReal
 
             ProcessAndDisplayBooks(books);
         }
+
+
         private void ProcessAndDisplayBooks(Book[] books)
         {
             listBoxBooks.Items.Clear();
