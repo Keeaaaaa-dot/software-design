@@ -166,7 +166,7 @@
             label3.AutoSize = true;
             label3.BackColor = SystemColors.ControlLight;
             label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(13, 9);
+            label3.Location = new Point(23, 29);
             label3.Name = "label3";
             label3.Size = new Size(323, 32);
             label3.TabIndex = 14;
@@ -224,6 +224,7 @@
             Controls.Add(btnFetchBooks);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

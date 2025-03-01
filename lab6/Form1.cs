@@ -244,5 +244,10 @@ namespace lab6
         {
             // BLANK
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

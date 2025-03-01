@@ -53,9 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3StudentChallenge", "Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2PolymorphicBehaviorReal", "Task2PolymorphicBehaviorReal\Task2PolymorphicBehaviorReal.csproj", "{83B5090C-13C6-4254-9A63-BDB9E9B208BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{1F50E854-1C58-4962-916C-6D5BCBFD23EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{1F50E854-1C58-4962-916C-6D5BCBFD23EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreTest", "BookstoreTest\BookstoreTest.csproj", "{346B9EFA-123D-4BB1-BEBF-0428CFE5831C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookstoreTest", "BookstoreTest\BookstoreTest.csproj", "{346B9EFA-123D-4BB1-BEBF-0428CFE5831C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

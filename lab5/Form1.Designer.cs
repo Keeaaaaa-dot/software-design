@@ -48,21 +48,21 @@
             // 
             // txtAuthorName
             // 
-            txtAuthorName.Location = new Point(163, 162);
+            txtAuthorName.Location = new Point(121, 144);
             txtAuthorName.Name = "txtAuthorName";
             txtAuthorName.Size = new Size(100, 23);
             txtAuthorName.TabIndex = 0;
             // 
             // txtBookTitle
             // 
-            txtBookTitle.Location = new Point(163, 209);
+            txtBookTitle.Location = new Point(121, 191);
             txtBookTitle.Name = "txtBookTitle";
             txtBookTitle.Size = new Size(100, 23);
             txtBookTitle.TabIndex = 1;
             // 
             // btnAddBook
             // 
-            btnAddBook.Location = new Point(126, 299);
+            btnAddBook.Location = new Point(84, 281);
             btnAddBook.Name = "btnAddBook";
             btnAddBook.Size = new Size(75, 23);
             btnAddBook.TabIndex = 2;
@@ -74,14 +74,14 @@
             // 
             listBoxBooks.FormattingEnabled = true;
             listBoxBooks.ItemHeight = 15;
-            listBoxBooks.Location = new Point(368, 132);
+            listBoxBooks.Location = new Point(261, 91);
             listBoxBooks.Name = "listBoxBooks";
             listBoxBooks.Size = new Size(324, 229);
             listBoxBooks.TabIndex = 3;
             // 
             // btnShowBooks
             // 
-            btnShowBooks.Location = new Point(368, 370);
+            btnShowBooks.Location = new Point(261, 332);
             btnShowBooks.Name = "btnShowBooks";
             btnShowBooks.Size = new Size(75, 23);
             btnShowBooks.TabIndex = 4;
@@ -91,14 +91,14 @@
             // 
             // txtBookID
             // 
-            txtBookID.Location = new Point(163, 259);
+            txtBookID.Location = new Point(121, 241);
             txtBookID.Name = "txtBookID";
             txtBookID.Size = new Size(100, 23);
             txtBookID.TabIndex = 5;
             // 
             // btnUpdateBook
             // 
-            btnUpdateBook.Location = new Point(207, 299);
+            btnUpdateBook.Location = new Point(165, 281);
             btnUpdateBook.Name = "btnUpdateBook";
             btnUpdateBook.Size = new Size(75, 23);
             btnUpdateBook.TabIndex = 6;
@@ -109,7 +109,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(100, 165);
+            label1.Location = new Point(58, 147);
             label1.Name = "label1";
             label1.Size = new Size(44, 15);
             label1.TabIndex = 7;
@@ -118,7 +118,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(114, 212);
+            label2.Location = new Point(72, 194);
             label2.Name = "label2";
             label2.Size = new Size(30, 15);
             label2.TabIndex = 8;
@@ -147,7 +147,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(126, 262);
+            label5.Location = new Point(84, 244);
             label5.Name = "label5";
             label5.Size = new Size(18, 15);
             label5.TabIndex = 11;
@@ -155,21 +155,21 @@
             // 
             // txtSearchAuthor
             // 
-            txtSearchAuthor.Location = new Point(592, 370);
+            txtSearchAuthor.Location = new Point(485, 333);
             txtSearchAuthor.Name = "txtSearchAuthor";
             txtSearchAuthor.Size = new Size(100, 23);
             txtSearchAuthor.TabIndex = 12;
             // 
             // txtDeleteBook
             // 
-            txtDeleteBook.Location = new Point(592, 404);
+            txtDeleteBook.Location = new Point(485, 372);
             txtDeleteBook.Name = "txtDeleteBook";
             txtDeleteBook.Size = new Size(100, 23);
             txtDeleteBook.TabIndex = 13;
             // 
             // btnSearchByAuthor
             // 
-            btnSearchByAuthor.Location = new Point(477, 369);
+            btnSearchByAuthor.Location = new Point(379, 332);
             btnSearchByAuthor.Name = "btnSearchByAuthor";
             btnSearchByAuthor.Size = new Size(100, 23);
             btnSearchByAuthor.TabIndex = 14;
@@ -179,7 +179,7 @@
             // 
             // btnDeleteID
             // 
-            btnDeleteID.Location = new Point(477, 403);
+            btnDeleteID.Location = new Point(379, 371);
             btnDeleteID.Name = "btnDeleteID";
             btnDeleteID.Size = new Size(100, 23);
             btnDeleteID.TabIndex = 15;
@@ -191,7 +191,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(733, 450);
+            ClientSize = new Size(605, 406);
             Controls.Add(btnDeleteID);
             Controls.Add(btnSearchByAuthor);
             Controls.Add(txtDeleteBook);
